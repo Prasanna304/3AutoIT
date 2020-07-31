@@ -1,8 +1,16 @@
 package autoIT;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 public class AutoIT {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException, IOException {
 		
 		File f = new File("");
 		String Path = f.getAbsolutePath();
