@@ -16,9 +16,3 @@
  * Once code completion is done close the indentifier and save the file in your project
  * Right click the script and compile as 64 or 86 based on your os
  */
-
-package autoIT;
-
-public class A_Introduction {
-
-}
